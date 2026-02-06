@@ -2,7 +2,7 @@
   // Aparência geral
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "JetBrains Mono NL, Consolas, monospace",
+  "editor.fontFamily": "JetBrains Mono, Consolas, monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 22,
   "editor.fontLigatures": "'calt', 'liga",
