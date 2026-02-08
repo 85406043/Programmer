@@ -1,6 +1,6 @@
 #Enter text
-string = input("Name of your hometown: ").upper().strip()
+city = input("Name of your hometown: ").upper().strip()
 #Module
-module = string.startswith("SANTO")
+module = city.startswith("SANTO")
 #Show
-print("{}".format(module))
+print("{}".format(module))#print(city[:5].upper() == "SANTO")
