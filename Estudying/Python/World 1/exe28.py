@@ -10,4 +10,3 @@ if number != computer:
 #show result
 else:
   print("Congratulations! You got it right!")
-
