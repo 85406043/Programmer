@@ -1,21 +1,13 @@
-#variables numbers
-firstNumber = int(input("Enter a number: "))
-secondNumber = int(input("Enter a Second number: "))
-thirdNumber = int(input(" Enter a Third number: "))
 
-#variables Larger and Smaller
-largerNumber = smallerNumber = firstNumber
+#i need initial salary
+salary = float(input("Enter a Salary: "))
+#conditions(calc)
+if salary <= 1250:
+  calcSalary = (1250 * 15) / 100
+  newSalary = calcSalary + salary
+  print(f"New salary with an 15% increase: R${newSalary}")
 
-#conditions
-if secondNumber > firstNumber:
-  largerNumber = secondNumber
-if secondNumber < firstNumber:
-  smallerNumber = secondNumber
-
-if thirdNumber > firstNumber:
-  largerNumber = thirdNumber
-if thirdNumber < firstNumber:
-  smallerNumber = thirdNumber
-
-print(f"Larger Number: {largerNumber}")
-print(f"Smaller Number: {smallerNumber}")
+else:
+  calcSalary = (1250 * 10) / 100
+  newSalary = calcSalary + salary
+  print(f"New salary with an 10% increase: R${newSalary}")
