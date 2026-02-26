@@ -1,4 +1,3 @@
-
 #variables numbers
 firstNumber = int(input("Enter a number: "))
 secondNumber = int(input("Enter a Second number: "))
