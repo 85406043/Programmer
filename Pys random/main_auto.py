@@ -14,7 +14,7 @@ tp.sleep(5)
 pat.click(539, 304, duration=1)
 tp.sleep(5)
 
-for i in range(50):
+for loop in range(50):
 
     pat.click(1481, 988, duration=1)
     tp.sleep(1)
